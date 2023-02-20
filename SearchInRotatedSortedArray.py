@@ -1,4 +1,4 @@
-#
+#A binary search solution where the list is split into two and dictates based on a left sorted side and a right sorted side and split further from there
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         l = 0
