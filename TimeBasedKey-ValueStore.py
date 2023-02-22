@@ -1,5 +1,5 @@
 #creates self.store dictionary to store the key and the values, inputting values when set is called, get institutes a binary function
-#and uses the timestamp to check the second value in the list 
+#and uses the timestamp to check the second value in the list
 
 class TimeMap:
 
