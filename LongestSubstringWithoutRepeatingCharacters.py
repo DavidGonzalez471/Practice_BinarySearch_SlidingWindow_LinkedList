@@ -17,6 +17,7 @@ class Solution:
         return count
     
 #creates a set which has faster search times for items within, using a move r pointer and a resetting L pointer to check against and remove from the set against
+#also checks r and l which are at opposing points of longest substring instead of checking the length of the set
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         charSet = set()
