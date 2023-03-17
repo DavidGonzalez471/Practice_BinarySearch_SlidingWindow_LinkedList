@@ -1,4 +1,5 @@
-#
+#Checking if s1 exists within s2 in any order, created the list of 26 zeroes inputting the count of each letter of the alphabet for the substring
+#and checking if they coincide to increase match count, when match count increases all the way to 26 the substrings are equal
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         if len(s1) > len(s2):
