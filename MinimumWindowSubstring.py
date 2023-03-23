@@ -26,8 +26,8 @@ class Solution:
                     res = [l, r]
                     length = (r -l + 1)
                 
-                window[s[l]] -= 1
-                if s[l] in tCount and window[s[l]] < tCount[s[l]]:
+                sCount[s[l]] -= 1
+                if s[l] in tCount and sCount[s[l]] < tCount[s[l]]:
                     have -= 1
                 l += 1
 
