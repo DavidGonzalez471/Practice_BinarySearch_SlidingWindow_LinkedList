@@ -1,4 +1,5 @@
-#
+#A deque is a double ended queue that has constant pop and append actions. using a deque to add and remove items 
+# according to the max in the sliding window.
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         res = []
