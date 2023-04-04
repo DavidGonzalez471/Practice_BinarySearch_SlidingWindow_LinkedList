@@ -14,3 +14,17 @@ class Solution:
             prev = head
             head = temp
         return prev
+
+#recursive solution
+class Solution:
+def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+    if not head:
+        return None
+
+    newHead = head
+    if head.next:
+        newHead = self.reverseList(head.next)
+        head.next = head
+    head.next = None
+
+    return newHead
