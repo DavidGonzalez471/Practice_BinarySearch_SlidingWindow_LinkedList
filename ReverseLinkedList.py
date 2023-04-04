@@ -24,7 +24,7 @@ def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
     newHead = head
     if head.next:
         newHead = self.reverseList(head.next)
-        head.next = head
+        head.next.next = head
     head.next = None
 
     return newHead
